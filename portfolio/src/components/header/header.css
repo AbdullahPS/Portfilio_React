@@ -13,6 +13,13 @@ header{
 .me{
     width: 50%;
     margin: 2.5rem auto;
+    background:  linear-gradient(var(--color-primary),transparent);
+    border-radius: 12rem 12rem 0 0 ;
+    overflow: hidden;
+}
+.me img{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .CTA{
@@ -31,3 +38,18 @@ header{
     left: 0;
     bottom: 3rem;
 }
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+.scroll__down{
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    font-weight: 300;
+transform: rotate(90deg) ;
+font-size: .9rem;}
