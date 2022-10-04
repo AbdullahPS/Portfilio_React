@@ -12,7 +12,7 @@ const Header = () => {
   <h5 className='text-light'>Front-End Developer</h5>
   <div className='CTA'>
   <a href= {CV} download className='btn'>Download CV</a>
-  <a href= "#Contact" className='btn btn-primary'>Let's Talk</a>
+  <a href= "#contact" className='btn btn-primary'>Let's Talk</a>
   </div>
   <div className="me">
     <img src={ME} className='img' alt ="Image of Abdullah Tabbal"/>
