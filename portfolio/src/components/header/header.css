@@ -1,0 +1,33 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.me{
+    width: 50%;
+    margin: 2.5rem auto;
+}
+
+.CTA{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: 0.8;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
